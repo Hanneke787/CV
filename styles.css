@@ -1,0 +1,63 @@
+body{
+    background-color: #669900;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 100px;
+    [padding: 5px 4px;]
+}
+#verzend:active{
+background-color: #990099;
+color: black;
+}
+ul a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    height: 25px;
+    width: 65px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color:#990099;
+}
+li:hover{
+    background-color: #ff99ff;
+    border-style: solid;
+}
+header, body, footer{
+    padding: 5px;
+}
+footer{
+    color: #990099;
+}
+#name1, #name2, #name3, #name4{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#verzend{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+table{
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    font-weight: bold;
+}
